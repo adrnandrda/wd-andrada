@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Landing Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        header, footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+        main {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 2em;
+        }
+        h1 {
+            margin: 0.5em 0;
+        }
+        p {
+            max-width: 600px;
+            margin: 1em 0;
+        }
+        .buttons {
+            margin-top: 2em;
+        }
+        .buttons button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 1em 2em;
+            margin: 0.5em;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .buttons button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Header and Footer</h1>
+    </header>
+    <main>
+        <h2>Seatwork 3</h2>
+        <p>This project shows how to use HTML and CSS to create a basic landing page. The page has two navigation buttons, a title, a subtitle, a short description, and header and footer sections. The objective is to create structured and styled web pages by practicing fundamental HTML and CSS.</p>
+        <div class="buttons">
+            <button onclick="location.href='#'">Button 1</button>
+            <button onclick="location.href='#'">Button 2</button>
+        </div>
+    </main>
+    <footer>
+        <p>Footer Content</p>
+    </footer>
+</body>
+</html>
